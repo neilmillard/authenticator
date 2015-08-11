@@ -1,0 +1,16 @@
+{
+  "name": "neilmillard/authenticator",
+  "description": "User authenticator based on Zend with DBO adapter",
+  "minimum-stability": "dev",
+  "license": "Apache 2",
+  "authors": [
+    {
+      "name": "Neil Millard",
+      "email": "neil@neilmillard.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Authenticator\\": "Authenticator" }
+  }
+}
