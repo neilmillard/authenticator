@@ -3,7 +3,7 @@
 This is a dbo authenticator based on the Zend Framework.
 
 ## Installation
-It's recommended that you use [Composer](https://getcomposer.org/) to install Slim.
+It's recommended that you use [Composer](https://getcomposer.org/) to install
 
 ```bash
 $ composer require neilmillard/authenticator
@@ -70,6 +70,6 @@ if ($result->isValid()){
 
 and to logout
 
-``php
+```php
 $this->authenticator->clearIdentity();
 ```
