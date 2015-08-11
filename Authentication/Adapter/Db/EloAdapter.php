@@ -9,7 +9,7 @@
  * @license   http://github.com/jeremykendall/slim-auth/blob/master/LICENSE MIT
  */
 
-namespace Authentication\Adapter\Db;
+namespace Authenticator\Adapter\Db;
 
 use Authenticator\Adapter\AbstractAdapter;
 use Authenticator\Result as AuthenticationResult;
